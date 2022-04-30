@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- set the encoding of your site -->
+    <meta charset="utf-8">
+    <!-- set the viewport width and initial-scale on mobile devices -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:image" content="images/img.jpg" />
+    <title>Ukraine</title>
+    <!-- include live stylesheet -->
+    <link media="all" rel="stylesheet" href="https://undp.github.io/design-system/css/base-minimal.min.css">
+    <link media="all" rel="stylesheet" href="https://undp.github.io/design-system/css/components/parallax-gallery.min.css">
+    <link media="all" rel="stylesheet" href="https://undp.github.io/design-system/css/components/language-switcher.min.css">
+    <link media="all" rel="stylesheet" href="https://undp.github.io/design-system/css/components/footer.min.css">
+    <!-- include local stylesheet -->
+    <link media="all" rel="stylesheet" href="css/main.css">
+    <!-- include jQuery library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <!-- include live jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EasePack.min.js"></script>
+    <script src="https://undp.github.io/design-system/js/lang-switcher.min.js"></script>
+    <script src="https://undp.github.io/design-system/js/parallax.min.js"></script>
+    <script src="js/jquery.main.js"></script>
+</head>
+
+<body>
+    <!-- main wrappe of the site -->
+    <div id="wrapper">
+        <!-- header of the of the page -->
+        <header id="header">
+            <div class="container">
+                <div class="row alignitem-center">
+                    <div class="col-6">
+                        <!-- brand logo -->
+                        <div class="logo">
+                            <a href="https://www.undp.org/">
+                                <img src="images/logo.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <!-- language drop -->
+                        <div class="dropdown-language">
+                            <button class="white" aria-label="English, Select your language" aria-expanded="false">
+                                English
+                            </button>
+                            <ul role="menu">
+                                <li role="menuitem">
+                                    <a href="fr/index.html" lang="fr" hreflang="fr" tabindex="-1">Français</a>
+                                </li>
+                                <li role="menuitem">
+                                    <a href="es/index.html" lang="es" hreflang="es" tabindex="-1">Español</a>
+                                </li>
+                                <li role="menuitem">
+                                    <a href="uk/index.html" lang="uk" hreflang="uk" tabindex="-1">UK</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- hero section of the page -->
+        <section class="section d-flex hero">
+            <div class="container d-flex alignitem-center p-0">
+                <!-- hero image -->
+                <div class="img-area">
+                    <picture>
+                        <source media="(min-width:767px)" srcset="images/img.jpg">
+                        <img src="images/img-mobile.jpg" alt="">
+                    </picture>
+                </div>
+                <!-- hero text -->
+                <div class="caption">
+                    <div class="container d-flex alignitem-center">
+                        <div class="text">
+                            <h1>WAR IN UKRAINE</h1>
+                            <div class="text-block">
+                                <hr>
+                                <p>Scaling up support to the people of Ukraine</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Intro section of the page -->
+        <section class="intro-holder">
+            <div class="container p-0">
+                <div class="text">
+                    <p>The war in Ukraine is inflicting immense human suffering and devastating communities. UNDP teams are on the ground, working in partnership with the Government of Ukraine to save lives and support relief efforts. </p>
+                    <p>But the needs are rapidly increasing.</p>
+                    <p>The government says at least US$100 billion of buildings, roads, bridges, hospitals, schools have been destroyed. The war has caused half the country’s businesses to shut completely, while the other half are struggling. </p>
+                    <p>UNDP’s initial estimates that a prolonged conflict would push nine out of 10 of Ukrainians into poverty or near poverty and put almost two decades of development gains at risk. The deep social and economic scars will endure for generations. </p>
+                </div>
+                <div class="intro-columns alignitem-end">
+                    <div class="col">
+                        <div class="text-block">
+                            <blockquote>
+                                <q>“In parallel with critical humanitarian support, development must be prioritized even in the midst of war… Targeted assistance will help prevent millions from falling into poverty at a time when a t least half of all Ukrainian businesses have been forced to close. We’re working with Ukraine to help to halt a looming development catastrophe.”</q>
+                                <cite>— Achim Steiner, UNDP Administrator</cite>
+                            </blockquote>
+                        </div>
+                        <div class="meta d-desktop">
+                            <p>The government estimates at least US$100 billion of infrastructure has been destroyed. Koshytsia Street, Kyiv, 25 February 2022. </p>
+                            <span>Photo: Oleksandr Ratushniak / UNDP Ukraine</span>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img-holder">
+                            <img src="images/img1.jpg" alt="">
+                        </div>
+                        <div class="meta d-tablet">
+                            <p>The government estimates at least US$100 billion of infrastructure has been destroyed. Koshytsia Street, Kyiv, 25 February 2022. </p>
+                            <span>Photo: Oleksandr Ratushniak / UNDP Ukraine</span>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Information section of the page -->
+        <section class="info-holder bg-cover" style="background-image: url(images/img2.jpg);">
+            <div class="container-small">
+                <div class="text">
+                    <h2>Stay and deliver</h2>
+                    <p>UNDP has supported development in Ukraine for 30 years and our commitment to the people of Ukraine is absolute. Using early socio-economic assessments, <a target="_blank" class="animated-link" href="https://www.undp.org/press-releases/undp-launches-new-programme-address-socio-economic-impact-ukraine-caused-war">we launched a new programme</a> focused on supporting the government’s emergency response, its commitment to public services and to keeping the economy running. </p>
+                    <p>Our programme taps into Ukrainians’ inspiring levels of resourcefulness—which they have repeatedly demonstrated.
+                        And we are working with institutions and civil society to maintain the social fabric, uphold human rights, and ensure the inclusion, protection and empowerment of all people.</p>
+                    <blockquote>
+                        <q>“In parallel with critical humanitarian support, development must be prioritized even in the midst of war. The Government of Ukraine must be supported to respond to the emergency and sustain essential public services -- from helping families to seek shelter and access lifesaving finance, to repairing vital infrastructure including energy, communications, and transport. Targeted assistance will help prevent millions from falling into poverty at time when at least half of all Ukrainian businesses have been forced to close. We’re working with Ukraine to help to halt a looming development catastrophe.” </q>
+                        <cite>– Achim Steiner, UNDP Administrator</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <!-- Women and girls section of the page -->
+        <section class="priority-banner">
+            <div class="container-small">
+                <div class="head">
+                    <div class="heading-holder">
+                        <h2>Women and girls first</h2>
+                    </div>
+                    <div class="text">
+                        <p>It is vital to meet the needs of the most vulnerable first. For women and girls that also means providing ways to support their families through developing skills, business support and enabling them to tap in finance networks and markets. </p>
+                        <p>Sexual violence is a predictable part of war’s brutality and inhumanity, and UNDP has prioritized support through local institutions and civil society. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="img-holder">
+                    <picture>
+                        <source media="(min-width:992px)" srcset="images/img3.jpg">
+                        <img src="images/img3-mobile.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="img-details">
+                    <div class="by">
+                        Photo: Алесь Усцінаў
+                    </div>
+                    <div class="text-block">
+                        <p>Meeting the needs of the most vulnerable first includes providing job skills and other programmes to ensure that they can support themselves. Two girls walking around a village in the Chernihiv region, Ukraine. April 2022.</p>
+                    </div>
+                </div>
+                <div class="priority-info">
+                    <h2>The groundwork is laid</h2>
+                    <p>UNDP’s direct outreach is quick and effective because we can rely on <a target="_blank" class="animated-link" href="https://stories.undp.org/safeguarding-inclusivity-in-times-of-war-mykolas-story">longstanding partnerships with existing local networks.</a></p>
+                    <p>We’ve re-purposed more than $20 million of existing flexible funds, in line with what the Ukrainian government has agreed are the most pressing priorities. </p>
+
+                    <p>This goes from tracking displaced people and developing new digital services, to creating job opportunities for the most vulnerable, including women and the displaced.</p>
+
+                    <p>It means we can provide food and other essentials such as medication and first aid kits and support the Health Ministry with tests for the tens of thousands of wounded civilians who need blood transfusions.</p>
+
+                </div>
+            </div>
+        </section>
+        <!-- Information section of the page -->
+        <section class="info-holder bg-cover" style="background-image: url(images/img2.jpg);">
+            <div class="container-small">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h2>Valued partners step up</h2>
+                        <p>In eastern Ukraine, our strong partnership with the Government of Canada helped repurpose $8 million to respond to the urgent needs of people fleeing violence.</p>
+                        <p><a target="_blank" class="animated-link" href="https://www.ua.undp.org/content/ukraine/en/home/presscenter/pressreleases/2022/japan-contributes-us-4-5-million-to-clear-explosive-ordnance-and.html">Japan contributed $4.5 million to clear explosive ordnance and remove debris</a>, ensuring safe human mobility and access to essential goods and services for humanitarian support. </p>
+
+                        <p>With funding from the European Union, the Swedish International Development Agency, the Netherlands and Canada, UNDP is also providing displacement shelters with food and medical supplies, as well as equipment for emergency services and hospitals. </p>
+                        <p>Sweden is supporting our efforts to provide digital services which allow <a target="_blank" class="animated-link" href="https://www.ua.undp.org/content/ukraine/en/home/presscenter/pressreleases/2022/ukraine-launches-new-e-service-for-internally-displaced-persons-.html">the displaced to register and get access to state services and support.</a> In the western districts we’re supporting community policing, and in Zakarpattia, we are backing police patrols as they maintain order in displacement hosting areas.</p>
+                        <p>Experts have been deployed to work on crisis governance, mine action, debris management and environmental hazards.</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-holder">
+                            <picture>
+                                <source media="(min-width:992px)" srcset="images/img4.gif">
+                                <img src="images/img4-mobile.gif" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hope section of the page -->
+        <section class="priority-banner help">
+            <div class="container">
+                <div class="priority-info">
+                    <h2>Help for those on the move</h2>
+                    <p>As fighting rages on, many remain cut off and people cannot leave their homes. At the same time millions are on the move in what is the largest and fastest displacement of people since WWII. </p>
+                    <p>It’s critical to <a target="_blank" class="animated-link" href="https://www.undp.org/press-releases/undp-scale-online-support-services-provide-lifeline-ukrainian-families">ensure they can get online support</a> no matter where they are without having to travel to official offices which may have been destroyed, or into dangerous conflict areas.</p>
+                    <div class="blockquote-holder">
+                        <blockquote>
+                            <q>“No one should have to live through this, but the Ukrainians have shown the highest level of resilience. The Ukrainian people need to regain their control over their lives and livelihoods as they have always done. They’re responding and finding solutions; but we need to continue supporting them, and peace needs to prevail as soon as possible.”</q>
+                            <cite>—Manal Fouani, UNDP interim Resident Representative in Ukraine.</cite>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="img-holder">
+                    <picture>
+                        <source media="(min-width:992px)" srcset="images/img5.jpg">
+                        <img src="images/img5-mobile.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="img-details">
+                    <div class="by">
+                        Photo: Oleksandr Ratushniak / UNDP Ukraine
+                    </div>
+                    <div class="text-block">
+                        <p>Online support has become critical for Ukrainians as they flee their homes often with little more than the clothes on their backs. People are fleeing violence, Bucha, Kyiv Oblast, Ukraine, 4 March 2022. </p>
+                    </div>
+                </div>
+                <div class="help-text">
+                    <h2>Thought leadership as a trigger for action</h2>
+                    <p>We have learned from our extensive experience working in crises, that action must follow careful consideration.</p>
+                    <p>In Ukraine, our work is informed by socio-economic analysis. We’re meeting immediate needs and laying the ground for recovery by making the most of Ukraine’s own resources: their economic capacities, natural resources, and human capital. </p>
+                </div>
+                <div class="war-info">
+                    <div class="grid-x grid-margin-x parallax-gallery">
+                        <div class="medium-6 cell parallax-gallery-left">
+                            <div class="parallax-gallery-content">
+                                <h2>A war felt around the world</h2>
+                                <p>The price of war isn’t just paid in death and injury. It reaches every facet of society.</p>
+
+                                <p>The conflict has reminded us that we are all connected. Most of the world will feel the effects as Ukrainians are forced to retreat from the world’s economic stage, and valuable exports are no longer freely available. </p>
+
+                                <p>There have already been far-reaching and long-term impacts on international development. Going forward, integrated development solutions will need to be at the centre of the global response to the crisis.</p>
+
+                                <p>UNDP has supported development in Ukraine for three decades. This will not change. We will continue to work with the country and its people as they navigate these perilous times and ensure that recovery and rebuilding begins as soon as humanly possible.</p>
+
+                            </div>
+                        </div>
+                        <div class="medium-6 cell parallax-gallery-right">
+                            <div class="parallax-gallery-images">
+                                <div class="column" role="img" aria-label="parallax gallery images">
+                                    <img src="images/img6.jpg" alt="">
+                                    <img src="images/img8.jpg" alt="">
+                                    <img src="images/img9.jpg" alt="">
+                                </div>
+                                <div class="column" role="img" aria-label="parallax gallery images">
+                                    <img src="images/img7.jpg" alt="">
+                                    <img src="images/img11.jpg" alt="">
+                                    <img src="images/img10.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer area of the page -->
+        <footer class="footer">
+            <div class="grid-x">
+                <div class="cell medium-10 medium-offset-1">
+                    <div class="grid-x footer-top">
+                        <div class="cell medium-5">
+                            <div class="footer-logo">
+                                <a href="https://www.undp.org/">
+                                    <img src="images/logo-white.svg" alt="UNDP Logo" />
+                                </a>
+                                <h5 tabindex="0">
+                                    United Nations
+                                    <br />
+                                    Development Programme
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="cell medium-5 show-large">
+                            <ul class="footer-icons">
+                                <li>
+                                    <a target="_blank" href="https://www.facebook.com/UNDP" class="facebook" title="Facebook">facebook</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.linkedin.com/company/undp/" class="linkedin" title="LinkedIn">linkedIn</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                                </li>
+                                <li><a target="_blank" href="https://twitter.com/UNDP/" class="twitter" title="Twitter">twitter</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid-x footer-bottom">
+                        <div class="cell medium-5">
+                            <p tabindex="0">© 2021 United Nations Development Programme</p>
+                        </div>
+                        <div class="cell medium-6">
+                            <ul class="footer-lists">
+                                <li><a href="https://www.undp.org/copyright-terms-use">Terms Of Use</a></li>
+                            </ul>
+                            <div class="show-small">
+                                <ul class="footer-icons">
+                                    <li>
+                                        <a target="_blank" href="https://www.facebook.com/UNDP" class="facebook" title="Facebook">facebook</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.linkedin.com/company/undp/" class="linkedin" title="LinkedIn">linkedIn</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.instagram.com/UNDP/" class="instagram" title="Instagram">instagram</a>
+                                    </li>
+                                    <li><a target="_blank" href="https://twitter.com/UNDP/" class="twitter" title="Twitter">twitter</a></li>
+                                    <li><a target="_blank" href="https://www.youtube.com/UNDP" class="youtube" title="Youtube">youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
