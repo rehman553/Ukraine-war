@@ -2456,6 +2456,11 @@ a:hover, a:focus {
   }
 }
 
+.dropdown-language ul {
+  left: auto;
+  right: 0;
+}
+
 .dropdown-language {
   float: right;
 }
@@ -2876,6 +2881,13 @@ blockquote cite {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width: 1600px) {
+  .intro-holder:after {
+    background-image: url(../images/img1-large.png);
+    width: 3270px;
+    height: 1452px;
+  }
 }
 .intro-holder .meta {
   margin-left: auto;

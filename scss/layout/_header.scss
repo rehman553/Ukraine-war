@@ -10,6 +10,13 @@
 }
 
 .dropdown-language {
+    ul {
+        left: auto;
+        right: 0;
+    }
+}
+
+.dropdown-language {
     float: right;
     ul {
         li {

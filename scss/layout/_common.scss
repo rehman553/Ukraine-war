@@ -331,6 +331,10 @@ blockquote {
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
+        @include media('>=widescreen') {
+            background-image: url(../images/img1-large.png);
+            @include size(3270px, 1452px);
+        }
     }
     .meta {
         margin-left: auto;
