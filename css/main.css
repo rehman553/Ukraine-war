@@ -2247,28 +2247,24 @@ img {
   src: url("../fonts/SohneBreit-Fett.woff2") format("woff2"), url("../fonts/SohneBreit-Fett.woff") format("woff");
   font-weight: 900;
   font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: "Proxima Nova";
   src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proxima_novabold-webfont.woff2") format("woff2"), url("../fonts/proxima_novabold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
   font-family: "Proxima Nova";
   src: url("../fonts/ProximaNova-Semibold.woff2") format("woff2"), url("../fonts/ProximaNova-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
 }
 body {
   margin: 0;
@@ -2329,7 +2325,10 @@ h1,
 h2,
 .h2 {
   font-size: 1.875rem;
-  letter-spacing: 5px;
+  letter-spacing: 0.235em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Proxima Nova", "Arial", sans-serif;
 }
 @media (min-width: 767px) {
   h2,
